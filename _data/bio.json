@@ -1,68 +1,66 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Сергей Семёнов",
+    "label": "founder @ <a href=\"https://synweb.ru\">synweb<a> & <a href=\"https://corebot.ru\">corebot<a>",
+    "picture": "https://sun1-24.userapi.com/s/v1/ig2/iCbhzQmDgcEP42J8MEMhef4LMwpXLhsixmy847pvFNhZHsHdSszj0EcpqVetWZXw51DmOCR5NT5vcIKvfjfiqbv6.jpg?quality=95&crop=604,0,592,592&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540&ava=1&u=Un3IrQu-hgvDV08aUuVGkXa3N6yAF5b5Qm-VanxL0ZA&cs=540x540",
+    "email": "srgsemenoff@gmail.com",
+    "phone": "",
+    "website": "https://seed122.github.io",
+    "summary": "Люблю музыку и космос, а ещё я разработчик ПО с профильным высшим образованием и стажем в 12 лет и предприниматель со стажем в 11 лет.",
+    "location": { "address": "", "postalCode": "", "city": "Москва", "countryCode": "USA", "region": "Россия" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "telegram", "username": "yuuvgram", "url": "https://t.me/yuuvgram" },
+      { "network": "telegram", "username": "seedsbox", "url": "https://t.me/seedsbox" },
+      { "network": "code-square", "username": "synweb", "url": "https://synweb.ru" },
+      { "network": "robot", "username": "corebot", "url": "https://corebot.ru" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Энтерпрайз-разработка" },
+    { "name": "SaaS" },
+    { "name": "Чат-боты" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Основные технологии",
+      "keywords": [ "Python", "C#", "MySQL", "MS SQL", "MongoDB", "Docker", "Ubuntu Server"]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Сферы деятельности",
+      "keywords": [ "Разработка продуктов", "Чат-боты", "Бэкенд", "CRM / ERP", "BI и дашборды"  ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "institution": "НИЯУ МИФИ",
+      "area": "Компьютерные системы, сети и технологии",
+      "studyType": "инженер",
+      "startDate": "2007",
+      "endDate": "2012",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "ЗАО Неолант",
+      "position": "Разработчик",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2012",
+      "endDate": "2013",
+      "summary": "Разработчик имитационных тренажёров для персонала АЭС",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Распределённые клиент-серверные приложения, актуальные для той эпохи",
+        "Создание интерфейсов, приближенных к реальным элементам управления оборудованием АЭС"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Синвеб",
+      "position": "CEO / CTO",
+      "website": "https://synweb.ru",
+      "startDate": "2013",
+      "endDate": "Настоящее время",
+      "summary": "Сооснователь, руководитель разработки продуктов и проектов",
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
         "Answer phone and email responses to the ITS Help Desk"

@@ -7,7 +7,7 @@
     "phone": "",
     "website": "https://seed122.github.io",
     "summary": "Люблю музыку и космос, а ещё я разработчик ПО с профильным высшим образованием и стажем в 12 лет и предприниматель со стажем в 11 лет.",
-    "location": { "address": "", "postalCode": "", "city": "Москва", "countryCode": "USA", "region": "Россия" },
+    "location": { "address": "", "postalCode": "", "city": "Москва", "countryCode": "", "region": "Россия" },
     "profiles": [
       { "network": "telegram", "username": "yuuvgram", "url": "https://t.me/yuuvgram" },
       { "network": "telegram", "username": "seedsbox", "url": "https://t.me/seedsbox" },

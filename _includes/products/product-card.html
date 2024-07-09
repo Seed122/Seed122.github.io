@@ -6,17 +6,16 @@
     <div class="col-sm-6 col-md-8">
       <div class="card-body">
         <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
+        {% if page.projecturl %}
+        <a href="{{ page.projecturl }}" class="">{{ page.projecturl | remove: "http://" | remove: "https://" }}</a>
+        {% endif %}        
         <p class="card-text">{{ include.page.summary }}</p>
         <p>
           {% for label in include.page.labels %}
           <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
           {% endfor %}
         </p>
-        {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">{{ page.projecturl | remove: "http://" | remove: "https://" }}</a>
-        {% else %}
         <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Подробнее</a>
-        {% endif %}
       </div>
     </div>
   </div>

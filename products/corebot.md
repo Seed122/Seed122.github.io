@@ -2,7 +2,7 @@
 layout: product
 type: product
 image: img/products/corebot/bg-bot-sq.jpg
-projecturl: https://corebot.ru/
+projecturl: https://corebot.ru
 title: "Корбот"
 date: ""
 published: true

@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Сергей Семёнов",
-    "label": "founder @ <a href=\"https://synweb.ru\">synweb<a> & <a href=\"https://corebot.ru\">corebot<a>",
+    "label": "founder @ <a href=\"https://synweb.ru\" target=\"_blank\">synweb<a> & <a href=\"https://corebot.ru\" target=\"_blank\">corebot<a>",
     "picture": "https://sun1-24.userapi.com/s/v1/ig2/iCbhzQmDgcEP42J8MEMhef4LMwpXLhsixmy847pvFNhZHsHdSszj0EcpqVetWZXw51DmOCR5NT5vcIKvfjfiqbv6.jpg?quality=95&crop=604,0,592,592&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540&ava=1&u=Un3IrQu-hgvDV08aUuVGkXa3N6yAF5b5Qm-VanxL0ZA&cs=540x540",
     "email": "srgsemenoff@gmail.com",
     "phone": "",
@@ -16,9 +16,9 @@
     ]
   },
   "interests": [
-    { "name": "Энтерпрайз-разработка" },
+    { "name": "энтерпрайз-разработка" },
     { "name": "SaaS" },
-    { "name": "Чат-боты" }
+    { "name": "чат-боты" }
   ],
   "skills": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Сферы деятельности",
-      "keywords": [ "Разработка продуктов", "Чат-боты", "Бэкенд", "CRM / ERP", "BI и дашборды"  ]
+      "keywords": [ "разработка продуктов", "чат-боты", "бэкенд", "CRM / ERP", "BI и дашборды", "биллинг"  ]
     }
   ],
   "education": [

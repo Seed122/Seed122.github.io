@@ -8,6 +8,7 @@
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
         <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
         <p class="lead">{{ site.data.bio.basics.summary }}</p>
+        <p><a href="{{ '/resume.html' | prepend: site.baseurl }}">Моя биография</a></p>
         <hr class="my-4">
         <p class="lead m-0">
           Сфера разработки:
@@ -15,6 +16,16 @@
           {{ interest.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
+        {% if site.data.bio.basics.lookFor %}
+        <p class="lead m-0">
+          Работу по найму не ищу. Ищу:
+        </p>
+        <ul class="lead">
+          {% for interest in site.data.bio.basics.lookFor %}
+          <li>{{ interest }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
         <hr class="my-4">
         <div class="row">
 
@@ -26,18 +37,18 @@
           {% endif %} -->
 
           {% if site.data.bio.basics.email %}
-            {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name='envelope' %}
-            </div>
+          {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+          <div class="col text-center">
+            {% include about/social.html url=url name='envelope' %}
+          </div>
           {% endif %}
 
           {% for profile in site.data.bio.basics.profiles %}
-            {% capture url %}{{ profile.url }}{% endcapture %}
-            {% capture name %}{{ profile.network | downcase }}{% endcapture %}
-            <div class="col text-center">
-              {% include about/social.html url=url name=name %}
-            </div>
+          {% capture url %}{{ profile.url }}{% endcapture %}
+          {% capture name %}{{ profile.network | downcase }}{% endcapture %}
+          <div class="col text-center">
+            {% include about/social.html url=url name=name %}
+          </div>
           {% endfor %}
 
         </div>

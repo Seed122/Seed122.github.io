@@ -3,7 +3,7 @@ layout: product
 type: product
 image: img/products/protobarsuk/protobarsuk-logo.png
 title: "Protobarsuk"
-date: ""
+date: "2015-"
 published: true
 labels:
   - C# (.NET Core, .NET)

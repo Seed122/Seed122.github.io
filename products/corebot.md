@@ -4,7 +4,7 @@ type: product
 image: img/products/corebot/bg-bot-sq.jpg
 projecturl: https://corebot.ru
 title: "Корбот"
-date: ""
+date: "2013-"
 published: true
 labels:
   - Python

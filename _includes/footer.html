@@ -1,7 +1,25 @@
 <footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
   <div class="container-fluid">
+    <div class="row">
+
+      {% if site.data.bio.basics.email %}
+      {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+      <div class="col text-center">
+        {% include about/social.html url=url name='envelope' %}
+      </div>
+      {% endif %}
+
+      {% for profile in site.data.bio.basics.profiles %}
+      {% capture url %}{{ profile.url }}{% endcapture %}
+      {% capture name %}{{ profile.network | downcase }}{% endcapture %}
+      <div class="col text-center">
+        {% include about/social.html url=url name=name %}
+      </div>
+      {% endfor %}
+
+    </div>
     <div class="ms-auto">
-      <ul class="navbar-nav mb-2 mb-lg-0">
+      <ul class="navbar-nav mb-lg-0">
         <small><a class="nav-link" href="https://synweb.ru/?utm_source=srgsemenoff_su_footer" target="_blank">synweb</a> | <a class="nav-link" href="https://corebot.ru/?utm_source=srgsemenoff_su_footer" target="_blank">corebot</a></small>
       </ul>
     </div>

@@ -10,3 +10,11 @@ ul.lead {
 .nav-link {
     display: initial;
 }
+
+
+
+@media (max-width: 575.98px) {
+    .container {
+        padding: 0 24px;
+    }
+}

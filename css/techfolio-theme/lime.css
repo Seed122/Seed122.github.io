@@ -42,9 +42,7 @@ a {
 }
 
 @media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
+
 
   .navbar-brand-mobile {
     display: inline;
